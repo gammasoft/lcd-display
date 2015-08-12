@@ -1,0 +1,33 @@
+{
+  "name": "lcd-display",
+  "version": "1.0.0",
+  "description": "Use this project to control an lcd display from the internet via your Raspberry Pi",
+  "main": "index.js",
+  "scripts": {
+    "test": "exit 0;"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/gammasoft/lcd-display.git"
+  },
+  "keywords": [
+    "lcd",
+    "display",
+    "raspberry",
+    "pi",
+    "20x8"
+  ],
+  "author": "Renato Gama <renato@gammasoft.com.br>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/gammasoft/lcd-display/issues"
+  },
+  "homepage": "https://github.com/gammasoft/lcd-display",
+  "dependencies": {
+    "async": "^1.4.2",
+    "body-parser": "^1.13.3",
+    "express": "^4.13.3",
+    "jade": "^1.11.0",
+    "moment": "^2.10.6",
+  }
+}
